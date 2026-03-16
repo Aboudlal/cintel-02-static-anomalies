@@ -131,3 +131,11 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## Technical Modification
+
+I created a custom version of the anomaly detection pipeline in `anomaly_detector_abdellah.py`.
+
+I added a new column called `anomaly_type` to explain why each record was flagged as an anomaly. The column identifies whether the anomaly is caused by age or height exceeding the threshold.
+
+This modification improves the output by making the anomaly results easier to interpret.
