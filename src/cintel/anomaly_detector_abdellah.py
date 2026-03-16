@@ -1,7 +1,7 @@
 """
 anomaly_detector_abdellah.py - Project script (example).
 
-Author: Denise Case
+Author: Abdellah Boudlal
 Date: 2026-03-07
 
 Static Data
